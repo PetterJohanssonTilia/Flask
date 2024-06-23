@@ -1,0 +1,18 @@
+{% extends "base.html"%}
+{% block content%}
+
+    <div class="row about-components">
+        <div class="col-md-5">
+            <img src="{{ component.image_source }}" alt="logo image for {{ component.name }}">
+        </div>
+        <div class="col-md-7">
+            <h2>{{component.name}}</h2>
+        </div>
+        
+    </div>
+
+    <div class="col-md-12">
+        <p>{{component.description}}</p>
+    </div>
+
+{% endblock %}

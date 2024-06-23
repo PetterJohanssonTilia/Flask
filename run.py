@@ -16,6 +16,15 @@ def about():
         data = json.load(json_data)
     return render_template("about.html", page_title="About", flask_components=data)
 
+@app.route("/about/<component_name>")
+def about_component(component_name):
+    component = {}
+    with open("data/flaskcomponents.json", "r") as json_data:
+        data = json.load(json_data)
+        for obj in data:
+            if obj["url"] == component_name:
+                component = obj
+    return render_template("component.html", component=component)
 
 @app.route("/contact")
 def contact():
