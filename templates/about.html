@@ -26,7 +26,8 @@
         <div class="row featurette">
             {% if loop.index % 2 != 0 %}
                 <div class="col-md-5 components components-titles">
-                    <h5>{{loop.index}}. {{component.name}}</h5>
+                    <h5><a href="/about/{{component.url}}">{{loop.index}}. {{component.name}}</a></h5>
+                    <img src="{{component.image_source}}" alt="">
                 </div>
                 <div class="col-md-7 components">
                     <p>{{component.description}}</p>
@@ -36,7 +37,8 @@
                             <p>{{component.description}}</p>
                         </div>            
                         <div class="col-md-5 components components-titles">
-                            <h5>{{loop.index}}. {{component.name}}</h5>
+                            <h5><a href="/about/{{component.url}}">{{loop.index}}. {{component.name}}</a></h5>
+                            <img src="{{component.image_source}}" alt="">
                         </div>
             {% endif %}
             

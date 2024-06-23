@@ -19,7 +19,16 @@
     margin: 0;
 }
 
+.components img {
+    width: 180px;
+}
+
 .components-titles {
     text-align: center;
 
+}
+
+.about-components img{
+    height: 200px;
+    margin-bottom: 50px;
 }

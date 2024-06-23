@@ -1,18 +1,26 @@
 [
     {
         "name": "Werkzeug",
-        "description":"is a utility library for the Python programming language for Web Server Gateway Interface (WSGI) applications"
+        "description":"is a utility library for the Python programming language for Web Server Gateway Interface (WSGI) applications",
+        "url": "werkzeug",
+        "image_source": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.clipartkey.com%2Fmpngs%2Fm%2F115-1150417_flask-framework-logo.png&f=1&nofb=1&ipt=0ef72df3ce6f5c1480c767d2247025888158eda73560181b699726a54ca38e8b&ipo=images"
     },
     {
         "name": "Jinja",
-        "description":"is a template engine for the Python programming language. Similar to the Django web framework"
+        "description":"is a template engine for the Python programming language. Similar to the Django web framework",
+        "url": "jinja",
+        "image_source": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fsaidvandeklundert.net%2Fimg%2Fjinja_logo.png&f=1&nofb=1&ipt=c4220b0504cfc749164834049e7b143b9ab7c4a8b6a4d664f83a554571335cd7&ipo=images"
     },
     {
         "name": "MarkupSafe",
-        "description":"MarkupSafe is a string handling library for the Python programming language"
+        "description":"MarkupSafe is a string handling library for the Python programming language",
+        "url": "markupsafe",
+        "image_source": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpythonfix.com%2Fpkg%2Fm%2Fmarkupsafe%2Fmarkupsafe-banner.webp&f=1&nofb=1&ipt=b0d7fac5f6e191ae673d14ca649ab9c205b73eb0bd90cd9d75b917d43e6681cf&ipo=images"
     },
     {
         "name": "ItsDangerous",
-        "description":"ItsDangerous is a safe data serialization library for the Python programming language."
+        "description":"ItsDangerous is a safe data serialization library for the Python programming language.",
+        "url": "itsdangerous",
+        "image_source": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fitsdangerous.palletsprojects.com%2Fen%2Flatest%2F_static%2Fitsdangerous-logo-sidebar.png&f=1&nofb=1&ipt=67686d2843102c8ad607260100043ff5da189b6d5a1762b2c79ffef6335c8fbb&ipo=images"
     }
 ]
