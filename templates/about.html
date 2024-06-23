@@ -3,19 +3,47 @@
     <h2>{{ page_title }}</h2>
     <br>
     <div class="row featurette">
-        <div class="col-md-7">
+        <div class="col-md-7 about-top">
             <h6>Developer(s)	Armin Ronacher</h6>
             <h6>Initial release	April 01, 2010</h6>
             <h6>Written in	Python</h6>
+            <p>
+                Flask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries.
+                 It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions.
+                However, Flask supports extensions that can add application features as if they were implemented in Flask itself.
+            </p>
         </div>
-        <div class="col-md-5">
+        <div class="col-md-5 about-top">
         <img src="https://qconlondon.com/london-2017/sites/default/files/styles/img-single-track/public/16602389_1396682037040642_4796705614143731651_o1a6e.jpg?itok=Aq344aSm" alt="picture of Armin" >
         </div>
     </div>  
     
-    <p>
-        Flask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries.
-         It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions.
-        However, Flask supports extensions that can add application features as if they were implemented in Flask itself.
-    </p>
+    
+    <br>
+    <center><h3>Here's the components of flask!</h3></center>
+    <br><br>
+    {% for component in flask_components %}
+        <div class="row featurette">
+            {% if loop.index % 2 != 0 %}
+                <div class="col-md-5 components components-titles">
+                    <h5>{{loop.index}}. {{component.name}}</h5>
+                </div>
+                <div class="col-md-7 components">
+                    <p>{{component.description}}</p>
+                </div>
+            {% else %}
+                        <div class="col-md-7 components">
+                            <p>{{component.description}}</p>
+                        </div>            
+                        <div class="col-md-5 components components-titles">
+                            <h5>{{loop.index}}. {{component.name}}</h5>
+                        </div>
+            {% endif %}
+            
+        </div>
+
+        {% if loop.index != loop.length %}
+        <hr>
+        {% endif %}
+    {% endfor %}
 {% endblock %}

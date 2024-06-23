@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Werkzeug",
+        "description":"is a utility library for the Python programming language for Web Server Gateway Interface (WSGI) applications"
+    },
+    {
+        "name": "Jinja",
+        "description":"is a template engine for the Python programming language. Similar to the Django web framework"
+    },
+    {
+        "name": "MarkupSafe",
+        "description":"MarkupSafe is a string handling library for the Python programming language"
+    },
+    {
+        "name": "ItsDangerous",
+        "description":"ItsDangerous is a safe data serialization library for the Python programming language."
+    }
+]

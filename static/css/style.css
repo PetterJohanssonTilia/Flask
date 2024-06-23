@@ -1,9 +1,25 @@
 /* About us page */
-.col-md-5 img{
-    width: 100%;
+.about-top {
+    max-height: 320px;
+    margin-bottom: 100px;
 }
 
-.col-md-7 {
-    padding-top: 20%;
-    padding-bottom: 25%;
+.about-top img{
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+.components {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.components p{
+    margin: 0;
+}
+
+.components-titles {
+    text-align: center;
+
 }
